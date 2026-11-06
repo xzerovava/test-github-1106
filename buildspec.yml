@@ -18,7 +18,6 @@ phases:
       - echo Build completed on `date`
       - ls -l ./dist/shop/
 artifacts:
-  base-directory: frontend
   files:
     - dist/shop/*
     - dist/shop/assets/*
